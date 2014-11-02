@@ -4,4 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
-@import "variables/**/*";
+@import "variables/_colors.scss";
+@import "variables/_legacy.scss";
+@import "variables/_typography.scss";
+@import "variables/_variables.scss";
