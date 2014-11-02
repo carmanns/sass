@@ -1,0 +1,46 @@
+// Typography
+// -------------------------
+// Fonts
+$font-web-bk:           'BBVA Web Book';
+$font-web-lg:           'BBVA Web Light';
+$font-web-md:           'BBVA Web Medium';
+$font-office-bk:        'BBVA Office Book';
+$font-office-lg:        'BBVA Office Light';
+$font-stag:             'Stag';
+$font-stag-lg:          'Stag Light';
+$font-stag-md:          'Stag Medium';
+
+$font-arial:  Arial, Geneva, sans-serif !default;
+
+$font-family-sans-serif:  "Helvetica Neue", Helvetica-, Arial, Geneva, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman-", Times, serif !default;
+$font-family-monospace:   Monaco, Menlo, Consolas, "Courier- New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          12px !default;
+$font-size-large:         ceil($font-size-base * 1.25) !default; // ~18px
+$font-size-small:         ceil($font-size-base * 0.85) !default; // ~12px
+
+$font-size-h1:            floor($font-size-base * 2.60) !default; // ~36px
+$font-size-h2:            floor($font-size-base * 2.15) !default; // ~30px
+$font-size-h3:            ceil($font-size-base * 1.70) !default; // ~24px
+$font-size-h4:            ceil($font-size-base * 1.25) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil($font-size-base * 0.85) !default; // ~12px
+
+$line-height-base:        1.428571429 !default; // 20/14
+$line-height-computed:    floor($font-size-base * $line-height-base) !default; // ~20px
+
+$headings-font-family:    $font-web-lg,$font-family-base !default;
+
+$headings-font-weight:    500 !default;
+$headings-line-height:    1.1 !default;
+$headings-color:          inherit !default;
+
+
+// Iconography
+// -------------------------
+
+$icon-font-path:          "../fonts/" !default;
+$icon-font-name:          "glyphicons-halflings-regular" !default;
+
